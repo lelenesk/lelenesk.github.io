@@ -1,93 +1,84 @@
 @font-face {
-    font-family: "roboto-bold";
-    src: url(fonts/Roboto/Roboto-Bold.ttf);
-    font-weight: 500px;
+  font-family: "Oswald";
+  src: url(fonts/Oswald/static/Oswald-Regular.ttf);
 }
 @font-face {
-    font-family: "indieflower";
-    src: url(fonts/Indie_Flower/IndieFlower-Regular.ttf);
-    font-weight: 400px;
+  font-family: "Caveat";
+  src: url(fonts/Caveat/static/Caveat-Regular.ttf);
 }
 @font-face {
-    font-family: "vt323";
-    src: url(fonts/VT323/VT323-Regular.ttf);
-    font-weight: 400px;
+  font-family: "Ralewy";
+  src: url(fonts/Raleway/Raleway-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: "patrickhand";
-    src: url(fonts/Patrick_Hand/PatrickHand-Regular.ttf);
-    font-weight: 400px;
+  font-family: "Righteous";
+  src: url(fonts/Righteous/Righteous-Regular.ttf);
+}
+@font-face {
+  font-family: "Kanit";
+  src: url(fonts/Kanit/Kanit-Regular.ttf);
 }
 
-/*
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Roboto&family=Rubik&family=Sacramento&family=Signika+Negative&family=VT323&display=swap');
-*/
-
-html {
-    /*text-transform: uppercase;*/
-    background-color: rgb(28, 26, 26);
-    background-image: url(../img/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat
-    margin: 10px 75px 20px 75px;
+#welcome-logo{
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px;
+  width: 135px;
+  height: 53px;
+}
+#welcome-logo:hover {
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.727);
+}
+li{
+  font-size: 22px;
+  font-family: "Kanit"
+}
+.text-list{
+  font-size: 15px;
+  font-family: "Oswald"
 }
 
-h1 {
-    color: red;
-    text-align: center;
-    font-family: "roboto-bold", sans-serif;
-    font-size: 35px;
+#writeUsButton{
+  display: inline;
+  visibility: visible;
+  position: sticky;
+  bottom: 10px;
+  right: 600px;
+  height:auto;
+  width:auto;
 }
+.companyContainer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center
 
-.header{
-    color: rgb(160, 18, 18);
-    font-size: 27px;
-    font-family: "patrickhand" ;
-    margin: 0px 10px 20px 0px;
-    padding: 2px 0 0 0 ;
-}
-
-p {
-    color: rgb(225, 221, 221);
-    font-family: "indieflower", sans-serif;
-    font-size: 18px;
-    max-width: 99%;
-    text-align: justify;
-    /*text-transform: capitalize; */
-    line-height: 28px;
-    border: solid 2px rgb(18, 18, 187);
-    padding: 15px 10px 30px 10px ;
-
-}
-#text2{
-    font-family: "vt323"sans-serif;
-    font-size: 19px;
-}
-.highlight{
-    font-weight: bold;
-    color: white;
-    text-align: right;
-    white-space: pre-line;
-
-}
-.img-div{
-    background-color: rgb(23, 23, 25);
 }
 img {
-    width: 13.5%;
-    height: 150px;
-    box-shadow: 10px 10px 24px rgb(94, 93, 93);
-    margin: 3%;
-}
-#img1{
-    display: inline;
-    visibility: visible;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    height:auto;
-    width:auto;
-    box-shadow: none;
-    border-radius: 25px;
+  min-width: 70%;
+  max-width: 100%;
 
+}
+.companyImage1 {
+  flex-basis: 50%;
+  
+}
+.companyText1 {
+  font-size: 13px;
+  font-family: "Raleway";
+  padding-left: 20px;
+  flex-basis: 50%;
+
+}
+h1 {
+  font-size: 20px;
+  font-family: "Oswald";
+}
+
+h2{
+  font-size: 15px;
+  font-family: "Righteous";
+}
+span{
+  font-size: 17px;
+  font-family: "Raleway";
 }
